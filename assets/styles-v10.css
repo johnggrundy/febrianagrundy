@@ -114,3 +114,7 @@
   .project-grid .card { padding: 22px; }
   .project-grid .card h3 { font-size: 19px; }
 }
+/* v12 brand icon update */
+.brand-mark{display:grid;place-items:center;width:42px;height:42px;border-radius:15px;overflow:hidden;background:#efe6ff;border:1px solid var(--line);flex:0 0 42px;}
+.brand-mark img{width:100%;height:100%;display:block;object-fit:cover;}
+@media (max-width:900px){.brand-mark{width:44px;height:44px;border-radius:16px;}.brand{gap:13px;}}
