@@ -5,7 +5,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Febriana Grundy</title>
   <link rel="icon" href="assets/favicon.svg">
-  <link rel="stylesheet" href="assets/styles.css">
+  <link rel="stylesheet" href="assets/styles-v8.css?v=8">
+
+  <style id="critical-mobile-nav-v8">
+    @media (max-width: 900px) {
+      header.topbar nav.nav .links { display: none !important; }
+      header.topbar nav.nav .menu-toggle {
+        display: inline-flex !important; align-items:center !important; justify-content:center !important; flex-direction:column !important;
+        gap:5px !important; width:46px !important; height:46px !important; padding:0 !important;
+        border:1px solid #eadfff !important; border-radius:16px !important; background:#fff !important; cursor:pointer !important;
+      }
+      header.topbar nav.nav .menu-toggle span { display:block !important; width:21px !important; height:2px !important; background:#211a33 !important; border-radius:999px !important; }
+      #mobileMenu[hidden] { display:none !important; }
+      #mobileMenu:not([hidden]) { display:block !important; }
+      #mobileMenu .mobile-menu-inner { display:grid !important; gap:10px !important; padding:14px 0 18px !important; }
+      #mobileMenu a { display:block !important; text-decoration:none !important; color:#211a33 !important; font-weight:800 !important; font-size:18px !important; padding:14px 16px !important; border-radius:16px !important; background:#faf7ff !important; border:1px solid #eadfff !important; }
+      #mobileMenu a.active { color:#5a3ec7 !important; }
+    }
+  </style>
 </head>
 <body>
   <div aria-hidden="true"> <svg style="display:none"><use href="assets/icons.svg#instagram"></use></svg></div>
