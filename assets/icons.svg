@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none">
+<defs>
+<linearGradient id="instagram-gradient" x1="0" y1="24" x2="24" y2="0" gradientUnits="userSpaceOnUse">
+<stop offset="0" stop-color="#feda75"/>
+<stop offset="0.25" stop-color="#fa7e1e"/>
+<stop offset="0.5" stop-color="#d62976"/>
+<stop offset="0.75" stop-color="#962fbf"/>
+<stop offset="1" stop-color="#4f5bd5"/>
+</linearGradient>
+</defs>
+<symbol id="instagram" viewBox="0 0 24 24">
+<rect width="24" height="24" rx="6" fill="url(#instagram-gradient)"/>
+<rect x="6.15" y="6.15" width="11.7" height="11.7" rx="3.4" fill="none" stroke="#fff" stroke-width="1.7"/>
+<circle cx="12" cy="12" r="3.05" fill="none" stroke="#fff" stroke-width="1.7"/>
+<circle cx="16.15" cy="7.85" r="1.05" fill="#fff"/>
+</symbol>
+<symbol id="youtube" viewBox="0 0 24 24">
+<path fill="#ff0000" d="M23.5 6.2a3.02 3.02 0 0 0-2.13-2.13C19.49 3.56 12 3.56 12 3.56s-7.49 0-9.37.51A3.02 3.02 0 0 0 .5 6.2 31.36 31.36 0 0 0 0 12a31.36 31.36 0 0 0 .5 5.8 3.02 3.02 0 0 0 2.13 2.13c1.88.51 9.37.51 9.37.51s7.49 0 9.37-.51a3.02 3.02 0 0 0 2.13-2.13A31.36 31.36 0 0 0 24 12a31.36 31.36 0 0 0-.5-5.8Z"/>
+<path fill="#fff" d="M9.6 15.56V8.44L15.84 12 9.6 15.56Z"/>
+</symbol>
+<symbol id="globe" viewBox="0 0 24 24">
+<circle cx="12" cy="12" r="10" fill="#6f56d9"/>
+<path d="M3.7 12h16.6M12 2.7c2.65 2.68 4.05 5.77 4.05 9.3S14.65 18.62 12 21.3C9.35 18.62 7.95 15.53 7.95 12S9.35 5.38 12 2.7Z" fill="none" stroke="#fff" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M5.2 6.9h13.6M5.2 17.1h13.6" fill="none" stroke="#fff" stroke-width="1.55" stroke-linecap="round"/>
+</symbol>
+<symbol id="book" viewBox="0 0 24 24"><path d="M4 5.5A3.5 3.5 0 0 1 7.5 2H20v17H7.5A3.5 3.5 0 0 0 4 22V5.5Z" fill="none" stroke="currentColor" stroke-width="2"/><path d="M8 6h8M8 10h8" stroke="currentColor" stroke-width="2"/></symbol>
+<symbol id="search" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="m16 16 5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+<symbol id="spark" viewBox="0 0 24 24"><path d="M12 2 9.4 8.8 2 12l7.4 3.2L12 22l2.6-6.8L22 12l-7.4-3.2L12 2Z" fill="currentColor"/></symbol>
+</svg>
